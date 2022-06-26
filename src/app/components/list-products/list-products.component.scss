@@ -1,0 +1,79 @@
+#primary-card {
+    height: 855px;
+    width: 400px;
+    margin: 11px;
+    background-color: #2D5C88;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    
+    display: block;
+}
+
+.card-header {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item-products {
+    margin: 9px 18px 9px 18px;
+    height: 101px;
+    width: 343px;
+    background-color: #D9D9D9;
+}
+
+.total_price {
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+span {
+    font-size: 22px;
+}
+
+.list-products {
+    height: 600px;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-right: 10px;
+}
+
+#boton-calcular {
+    width: 178px;
+    height: 61px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #FF6F1E;
+    border-color: #FF6F1E;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #D9D9D9;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
