@@ -1,3 +1,50 @@
+/* list products */
+
+.card-body{
+    background-color: #2D5C88;
+    margin: 10px;
+    margin-top: 10px;
+    border: black;
+
+    font-family: 'Arial';
+    font-style: normal;
+    
+}
+
+#agregarboton{
+    margin: 10px;
+    margin-left: 110px;
+}
+
+#vermas{
+    margin: 10px;
+    margin-left: 500px;
+}
+
+h1{
+    margin: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    color: #2D5C88;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color:#FF6F1E;
+}
+
+.container.mt-3{
+    display: flex;
+    margin:10px;
+    flex-wrap: wrap;
+}
+
+
+/* list-product-cart */
+
 #primary-card {
     height: 855px;
     width: 400px;
