@@ -14,7 +14,7 @@ export const ListProducts: Array<Product> = [
       marca: "Coca Cola",
       titulo: "Coca Cola Original 1.5 L",
       precio: "Precio: $1870",
-      fecha: "01/01/2022"
+      fecha: "01/02/2022"
     },{
       idproduct: 2,
       url: "https://jumbo.vtexassets.com/arquivos/ids/396797/Mantequilla-con-sal-250-g.jpg?v=637469298713900000",
