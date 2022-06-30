@@ -1,48 +1,75 @@
 /* list products */
 
-.card-body{
-    background-color: #2D5C88;
-    margin: 10px;
-    margin-top: 10px;
-    border: black;
+.container-fluid {
+    background-color: #f5f5f5;
+}
 
+.products{
+    width: 320px;
+    height: 295px;
+    border: 1px solid #ccc;
+    padding: 10px 0px 5px 0px;
+    margin: 11px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    
     font-family: 'Arial';
     font-style: normal;
+}
+
+.card-img-top {
+    width: 140px;
+    height: 140px;
     
+    display: block;
+    margin: 0px auto;
+}
+
+.brand{
+    margin: 0px;
+    color: #343a40;
+    
+    font-size: 16px;
+    font-family: 'Arial';
+    font-style: normal;
+}
+
+.name-product {
+    margin: 0px;
+    color: #343a40;
+    
+    font-size: 22px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: bold;
 }
 
 #agregarboton{
-    margin: 10px;
-    margin-left: 110px;
+    width: 112px;
+    height: 35px;
 }
 
-#vermas{
-    margin: 10px;
-    margin-left: 500px;
-}
 
-h1{
-    margin: 10px;
-    font-family: 'Arial';
-    font-style: normal;
-    color: #2D5C88;
-}
-
-h2{
-    color: white;
-}
-
-h3{
-    color:#FF6F1E;
-}
-
-.container.mt-3{
+.container {
     display: flex;
-    margin:10px;
+    margin: 0px;
+    padding: 0px;
     flex-wrap: wrap;
 }
 
+h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: bold;
+    color: #2D5C88;
+}
 
+/* #vermas{
+    margin: 10px;
+    margin-left: 500px;
+} */
 /* list-product-cart */
 
 #primary-card {
@@ -89,15 +116,18 @@ span {
     margin-right: 10px;
 }
 
-#boton-calcular {
-    width: 178px;
-    height: 61px;
-    font-size: 26px;
+.btn-primary {
     font-weight: bold;
     color: #FFFFFF;
     background-color: #FF6F1E;
     border-color: #FF6F1E;
     position: absolute;
+}
+
+#boton-calcular {
+    width: 178px;
+    height: 61px;
+    font-size: 26px;
     left: 50%;
     top: 90%;
     -ms-transform: translate(-50%, -50%);
